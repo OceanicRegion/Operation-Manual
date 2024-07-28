@@ -1,0 +1,193 @@
+# **Adelaide  Airport Operations Manual**
+
+Last Updated: 12/06/2024
+Version: 1.0
+# General
+
+| Information   ||
+| -------- | ------- |
+| ICAO Code  | YPAD |
+| IATA Code | ADL |
+| Airport Name | Adelaide Airport |
+| Time Zone | GMT +9:30 |
+| Permitted Traffic Types | IFR / VFR   |
+| Runways | 05/23, 12/30  |
+
+# Aerodrome
+
+| Logon | Callsign | Frequency | FRA |
+| -------- | ------- |
+| YPAD_TWR  | Adelaide Tower |  120.500MHz |  AS1 |
+| YPAD_GND  | Adelaide Ground |  121.700MHz |  AS1 |
+| YPAD_DEL  | Adelaide Delivery |  121.700MHz |  AS1 |
+
+1. YPAD_TWR is the default bandboxed Aerodrome position, and should be opened first.
+2. YPAD_GND is the default Ground position, and should only be opened once Tower is open.
+3. YPAD_DEL is the default Delivery position, and should only be opened once Ground is open.
+
+## Tower
+
+1. YPAD_DEL is the default position for Tower and is the first aerodrome position which should be opened.
+
+#### Responsibilities
+Adelaide Tower is responsible for the class C Adelaide CTR (SFC-1500ft). Tower are also responsible for both runways, the helipad, helicopter training areas and taxiways E and D. Ground are responsible for the remainder of the maneuvering area. Traffic looking to cross runway 12/30 at E1, or 05/23 at D1 will be instructed to ‘hold at (holding point), contact Tower on 120.5’ prior to being given a crossing clearance by Tower. Aircraft vacating runway 12/30 on D2 or 05/23 on E2 will be instructed to ‘cross runway (number) hold short of taxiway A’, and then transferred to Ground for onward taxi instructions.
+
+![ad_twr.png](/divisions/xo-division/opsmanuls/ad_twr.png)
+*Image from AIP Sept 2023. Uncontrolled.*
+Blue – YPAD_TWR
+
+#### Runway Selection
+Adelaide ordinarily operates on a single runway. Due to the length of both runways, this will normally be 05/23. The cross runway may be used as operationally required.
+Adelaide routinely utilises curfew operations (runway 05 for arrivals, 23 for departures) overnight for noise abatement purposes, subject to traffic levels and meteorological conditions. This is at the discretion of the Tower controller. 
+
+#### Auto Release
+Auto Release applies at Adelaide for aircraft:
+-	Assigned a procedural SID from a runway nominated on the ATIS and;
+-	Assigned the standard assignable level
+
+All other departures require a release from Departures, via a ‘Next’ call.
+
+Auto Release does not apply to:
+-	VFR departures
+-	Aircraft assigned the radar SID
+-	Departures to aerodromes within the Adelaide TCU
+-	High performance jet departures
+-	All departures during Curfew nomination
+
+Additionally, Tower will coordinate the following with Departures:
+-	Go arounds/missed approach
+
+#### Circuits
+Circuits are authorised to the east of the aerodrome on runway 05/23, and to the south of runway 12/30. 
+
+> At no point are circuits to be authorised when cross runway operations or curfew nomination are being used.
+{.is-danger}
+
+#### Transfer to Departures
+The frequency for departures will follow this priority order:
+
+Departures to the North West:
+| Runway 05 | Runway 23 | 
+| -------- | ------- |
+| YPAD_NW_APP  | YPAD_NW_APP |
+| YPAD_APP  | YPAD_APP | 
+| YMME_AD_CTR  | YMME_AD_CTR | 
+| YMME_CTR  | YMME_CTR |
+
+Departures to the South East:
+| Runway 05 | Runway 23 | 
+| -------- | ------- |
+| YPAD_SE_APP  | YPAD_SE_APP |
+| YPAD_APP  | YPAD_APP | 
+| YMME_AD_CTR  | YMME_AD_CTR | 
+| YMME_CTR  | YMME_CTR |
+
+All departures:
+| Runway 12 | Runway 30 | 
+| -------- | ------- |
+| YPAD_SE_APP  | YPAD_NW_APP |
+| YPAD_APP  | YPAD_APP | 
+| YMME_AD_CTR  | YMME_AD_CTR | 
+| YMME_CTR  | YMME_CTR |
+
+> The Adelaide Approach airspace is split along the Runway 05/23 centreline, therefore an easy way to know which frequency to send departures to is to see whether the SID terminus is left or right of the climb out. 
+{.is-info}
+
+
+#### Helipads
+Tower will issue helicopters using the helipad takeoff/landing clearances. Tower will need to coordinate with ground before authorising helicopters to cross taxiway F to the southern training area.
+
+## Ground
+
+1.	YPAD_GND is the only ground position for Adelaide. This position shall only be opened when YPAD_TWR is already online. 
+
+
+#### Runway Release
+When runway 12/30 is not in use, ground may request a release of the runway. In this case the runway is owned by ground, and ground do not need to coordinate runway crossing, backtracks, or taxiing on 12 or 30. The same principle applies when runway 05/23 is not in use.
+
+#### Aircraft Bay Assignment
+
+| Bay | Airlines | 
+| -------- | ------- |
+| 10A-D | RXA props |
+| 50A-G | QLK | 
+| 12-29 | *all jet airliners* | 
+| 80-88 | *cargo* | 
+| General Aviation | *Business Jets, GA, maintenance* | 
+| RFDS Apron | FD | 
+| Pilatus Apron | *on request* | 
+
+#### Transfer to Tower
+In real life, Australian operated aircraft will usually transfer to Tower without instruction, however due to the nature of IVAO this cannot always be expected, therefore Ground must transfer all aircraft to Tower when practical (no further ground traffic to effect). Reference the responsibility section. Where a runway is released to Ground, Ground will instruct aircraft to cross the inactive runway BEFORE transferring to Tower.
+
+## Delivery
+
+1.	YPAD_DEL is the delivery position for Adelaide. This position shall only be opened when YPAD_GND is already online. 
+
+#### Coordination
+Delivery is responsible for coordinating where required with the relevant Approach controller, prior to giving clearances involving the following:
+-	Departure from a runway not included on the ATIS.
+-	Non-standard requests
+-	High performance jet departures
+The Approach controller may then issue instructions including a routing, heading, or altitude constraint, which must be passed on in the clearance.
+
+#### Standard Assignable Level
+Clearance Delivery are responsible for assigning an initial climb in the clearance. Unless otherwise coordinated between Delivery and Departures, this shall be:
+> Jets: 5000ft, or the requested RFL, whichever is lower.
+> Props: 4000ft, or the requested RFL, whichever is lower.
+{.is-info}
+
+#### SID Assignment
+Where able, all IFR jets should be assigned the procedural SID which terminates at the appropriate waypoint according to their flight plan, or rerouted via the most appropriate SID according to runway in use and direction of flight.
+IFR prop aircraft, and IFR aircraft unable to accept the procedural SID will be assigned the AD radar SID. 
+
+# TCU
+
+| Logon | Callsign | Frequency | FRA |
+| -------- | ------- |
+| YPAD_APP  | Adelaide Approach |  118.200MHz |  AS2 |
+| *YPAD_SE_APP*  | *Adelaide Approach* |  *118.200MHz* |  *Event* |
+| *YPAD_NW_APP*  | *Adelaide Approach* |  *124.200MHz* |  *Event* |
+
+1.	YPAD_APP is the standard position for Adelaide TCU. This position shall be opened first, and can be opened any time. 
+2.	YPAD_SE_APP and YPAD_NW_APP are event only positions, and may be opened during events instead of YPAD_APP.
+3.	YPAD_APP cannot be open at the same time as YPAD_SE_APP and YPAD_NW_APP.
+4.	YPAD_SE_APP nor YPAD_NW_APP shall be opened independently.
+
+
+## Approach
+
+#### Responsibilities
+Adelaide Approach is responsible for the Adelaide TMA up to FL245, excluding the Adelaide, Parafield and Edinburgh CTRs. Adelaide Approach also provides an approach service to Parafield and Edinburgh. An optional top town Tower service to Parafield and Edinburgh may be provided at the controller’s discretion. The Approach controller is required to provide a top down Tower service to Adelaide. 
+
+#### Split Frequencies
+When YPAD_APP is split into YPAD_SE_APP and YPAD_NW_APP, the TMA shall be split along the runway 05/23 centreline, and the airspace south east of the split shall be managed by YPAD_SE_APP, and the airspace north west of the split shall be managed by YPAD_NW_APP.
+
+![ypad_app.png](/divisions/xo-division/opsmanuls/ypad_app.png)
+
+#### Approach Selection
+Weather conditions permitting, the visual approach is the preferred type of approach at Adelaide. The preferred instrument approach is the ILS for runway 23, or the RNP for all other runways. Aircraft shall be informed of their expected approach type on initial contact with Approach. If aircraft request another type of approach, this request should be accomodated if possible.
+
+#### Coordination with Centre
+**Departures:**
+> No coordination is required for IFR aircraft tracking via a procedural SID and assigned FL240. All other aircraft must be heads up coordinated with Melbourne Centre. Aircraft will be handed over to Centre before leaving the TMA, and must be clear of conflict.
+{.is-info}
+
+**Arrivals:**
+> No coordination is required for IFR aircraft inbound to Adelaide assigned a STAR, and in the descent to 9000ft. All other aircraft must be heads up coordinated by Melbourne Centre. Aircraft will be handed over to Approach before entering the TMA, and must be clear of conflict.
+{.is-info}
+
+#### Auto Release
+**Adelaide**
+Auto release applies at Adelaide for aircraft:
+-	Assigned a procedural SID from a runway nominated on the ATIS and;
+-	Assigned the standard assignable level (5000ft jets, 4000ft non-jets)
+
+**Parafield & Edinburgh**
+Auto release does not apply at Parafield or Edinburgh, all departures into the TMA must be released by Approach.
+Additional Rules
+-	During curfew ops at Adelaide, auto release is suspended
+-	Aircraft departing to another aerodrome with the TMA require release
+
+---
+*Authors: Charlie Walton 724364*
