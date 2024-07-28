@@ -1,0 +1,386 @@
+# **Sydney Kingsford Smith International Airport Operations Manual**
+
+# **PAGE UNDER CONSTRUCTION, REFER TO PDF OPS MANUAL**
+
+
+Last Updated: 10/06/2024
+Version: 1.0
+# General
+
+| Information   ||
+| -------- | ------- |
+| ICAO Code  | YSSY |
+| IATA Code | SYD |
+| Airport Name | Sydney Kingsford Smith Airport |
+| Time Zone | GMT +10 |
+| Permitted Traffic Types | IFR / VFR   |
+| Runways | 16L/34R, 16R/34L, 07/25    |
+
+# Aerodrome
+
+| Logon | Callsign | Frequency | FRA |
+| -------- | ------- |
+| YSSY_TWR  | Sydney Tower |  120.500MHz |  AS2 |
+| *YSSY_E_TWR*  | *Sydney Tower* |  *120.500MHz* |  *Event* |
+| *YSSY_W_TWR*  | *Sydney Tower* |  *124.700MHz* |  *Event* |
+| YSSY_GND  | Sydney Ground |  121.700MHz |  AS2 |
+| *YSSY_E_GND*  | *Sydney Ground* |  *121.700MHz* |  *Event* |
+| *YSSY_W_GND*  | *Sydney Ground* |  *126.500MHz* | *Event* |
+| YSSY_DEL  | Sydney Delivery |  133.800MHz |  AS1 |
+
+1. YSSY_TWR is the default bandboxed Aerodrome position, and should be opened first.
+2. YSSY_GND is the default bandboxed Ground position, and should only be opened once Tower is open.
+3. YSSY_DEL is the Delivery position, and should only be opened once Ground is open.
+4. *See sections below for opening of event only split Tower & Ground positions.*
+
+## Tower
+
+1. YSSY_TWR is the default position for Tower and is the first aerodrome position which should be opened.
+2. YSSY_TWR may be split into YSSY_E_TWR and YSSY_W_TWR during events, and only once YSSY_E_GND, YSSY_W_GND, and YSSY_DEL are online.
+3. When splitting Tower, the position YSSY_TWR is no longer to be used, instead YSSY_E_TWR and YSSY_W_TWR will be used.
+
+#### Responsibilities
+Sydney Tower is responsible for the runways and the helipad Heli 1. When split into YSSY_E_TWR and YSSY_W_TWR, E_TWR assumes responsibility for the easterly runway (16L/34R), and W_TWR assumes responsibility for the westerly runway (16R & 34L) and cross runway (07/25). The responsibility for Heli 1 falls on W_TWR 07/25 is in use, and E_TWR at all other times.
+
+Sydney Tower is responsible for the Sydney CTR (Class C) SFC-1000. This allows Tower to operate the circuit without an airspace release, whilst maintaining separation from the approaches. See the chart below:
+
+![sy_ctr.png](/divisions/xo-division/opsmanuls/sy_ctr.png)
+
+Sydney Tower is not responsible for departures/arrivals from Helicopter area, excluding Heli 1, therefore unless helicopters are departing from Heli 1 or a runway, they shall be instructed to report airborne/on the ground, and not cleared for takeoff/landing.
+
+#### Runway Selection
+Sydney Tower is responsible for selecting the duty runway. The preferred runway mode at Sydney is ‘Parallel Runway Operations’ (PROps) on either 34L/34R, or 16L/16R dependent on wind. Consider the TAF as well as the METAR.
+
+Sydney also has runway modes for noise abatement purposes when quieter traffic allows. These include curfew operations, routinely used overnight (16R for departures, 34L for arrivals), and ‘Simultaneous Opposite Direction Parallel Runway Operations’ (SODPROps) (16L for departures, 34L for arrivals).  SODPROps allows for a slightly higher traffic flow than curfew.
+
+Runway 07/25 can be used where meteorological conditions or operational considerations require. Consider that there are no procedural SIDs available for these runways, therefore using these runways for departures will increase the Tower & Departure controllers’ workload.
+
+#### Auto Release
+Auto Release applies at Sydney for aircraft:
+-	Assigned a procedural SID or radar SID with a standard assignable heading from a runway nominated on the ATIS and;
+-	Assigned the standard assignable level
+
+All other departures require a release from Departures, via a ‘Next’ call.
+
+Auto Release does **not** apply to:
+-	VFR departures
+-	Departures to aerodromes within the Sydney TCU
+-	High performance jet departures
+-	All departures during Curfew nomination
+Additionally, Tower will coordinate the following with Departures:
+-	Go arounds/missed approach
+
+#### Circuits
+Circuits are authorised up to 1000ft when PROps are in use. An airspace release is not required, however Approach must be informed, as this will remove the option to use Runway 07/25. Aircraft shall conduct circuit patterns to the west on Runway 16R/34L, and the east on Runway 16L/34R. 
+
+Circuits may be authorised on 07/25 up to 1000ft to the south ONLY when it is the only runway in use. 
+
+At no point are circuits to be authorised when cross runway operations or curfew nomination are being used.
+
+Higher performance aircraft (above 150kt) will ordinarily conduct circuits at 1500ft, therefore an airspace release is required from the relevant Approach/Departure position. This will be at the Approach/Departure controllers discretion subject to traffic, as any level above 1000ft has the potential to cause conflicts with approaches.
+
+#### Runway Release
+When runway 07/25 is not in use, ground may request a release of the runway. In this case the runway is owned by ground, and ground do not need to coordinate runway crossing, backtracks, or taxiing on 07 or 25. In the rare case of parallel runways not being in use, the same principle applies. At any time Tower can withdraw this release.
+
+#### Standard Assignable Headings
+The following standard assignable headings exist for the SY radar departure. At any time, the Departures controller can issue a different assigned heading.
+
+| Runway | Jet HDG | Non-Jet HDG |
+| -------- | ------- |
+| 07  | Runway HDG | 040, 100 |
+| 25  | Runway HDG |  220, 280 |
+| 16L  | 130 |  110 |
+| 16R  | 190 |  210 |
+| 34L  | 310 |  290 | 
+| 34R  | 370 |  390 |
+
+Example:
+>“RXA155 assigned left heading 110, winds calm, runway 16L cleared for takeoff”
+
+The headings can also be given with a lineup clearance, or when instructing an aircraft to hold. If given with a hold instruction, instruct the aircraft to hold position first, to prevent the crew from assuming a clearance will follow and causing a runway incursion.
+
+Example:
+>“FRE1616 hold at T6, assigned right heading 390”
+
+#### Vacate Instructions
+Aircraft should be instructed to vacate runway 16R/34L according to their parking requirements (to the west for internationals, and to the east for domestics and private jets). Use the Ground Ops Manual Aircraft Bay Assignments section if required. 
+
+#### Transfer to Ground
+On vacating, all aircraft shall be instructed to contact ground on the following frequencies:
+
+> *When Sydney Ground is bandboxed as YSSY_GND:*
+> All aircraft: 121.7
+{.is-info}
+
+> *When Sydney Ground is split into YSSY_E_GND and YSSY_W_GND:*
+> Aircraft east of 16R/34L: 121.7
+> Aircraft west of 16L/34R: 126.5 
+{.is-info}
+
+IMAGE
+
+*Image from AIP Sept 2023. Uncontrolled.*
+Orange – YSSY_E_GND (121.7)
+Blue – YSSY_W_GND (126.5)
+
+#### Transfer to Departures
+The frequency for departures will follow this priority order:
+
+| Runway 16L | Runway 16R | 
+| -------- | ------- |
+| YSSY_NE_DEP  | YSSY_SW_DEP |
+| YSSY_DEP  | YSSY_DEP | 
+| YSSY_APP  | YSSY_APP | 
+| YMME_ML_CTR  | YMME_ML_CTR | 
+| YMME_CTR  | YMME_CTR |
+
+
+| Runway 34L | Runway 34R | 
+| -------- | ------- |
+| YSSY_SW_DEP  | YSSY_NE_DEP |
+| YSSY_DEP  | YSSY_DEP | 
+| YSSY_APP  | YSSY_APP | 
+| YMME_ML_CTR  | YMME_ML_CTR | 
+| YMME_CTR  | YMME_CTR |
+
+
+| Runway 07 | Runway 25 | 
+| -------- | ------- |
+| YSSY_NE_DEP  | YSSY_SW_DEP |
+| YSSY_DEP  | YSSY_DEP | 
+| YSSY_APP  | YSSY_APP | 
+| YMME_ML_CTR  | YMME_ML_CTR | 
+| YMME_CTR  | YMME_CTR |
+
+In absence of all these positions, aircraft will be transferred to unicom, unless YBBE_BN_CTR, YBBE_BL_CTR, or YBBE_CTR are online, in which case aircraft tracking north into the Brisbane FIR can be transferred straight to Brisbane Centre in that order of preference.
+
+## Ground
+
+1.	YSSY_GND is the standard position for Sydney Ground. This position shall only be opened when YSSY_TWR is already online. 
+2.	YSSY_E_GND and YSSY_W_GND are event only positions and may be opened instead of YSSY_GND when YSSY_TWR and YSSY_DEL are also online.
+3.	YSSY_GND cannot be open at the same time as YSSY_E_GND and YSSY_W_GND.
+4.	YSSY_E_GND nor YSSY_W_GND shall be opened independently.
+
+#### Responsibilities
+Sydney Ground is responsible for taxiways and taxilanes, excluding DOM1A (aircraft on this taxilane may taxi up to DOM1 without clearance). Aircraft do not require start clearance. Ground may be delegated responsibility for inactive runways by Tower (see Runway Release).
+
+When Ground is split into east (YSSY_E_GND) and west (YSSY_W_GND), east is responsible for everything east of Runway 16R/34L, and west is responsible for everything to the west. On crossing, aircraft shall be instructed to hold short of the parallel taxiway and contact ground.
+
+IMAGE
+
+*Image from AIP Sept 2023. Uncontrolled.*
+Blue – YSSY_W_GND
+Orange – YSSY_E_GND
+
+#### Standard Taxi Routes
+Sydney utilises a one-way taxi system along taxiways B and C. Where practical, controllers should send aircraft taxiing northbound via L & B, and southbound via C and B10. This in no way prevents a controller from deviating to improve traffic flow, particularly when aircraft are pushing back onto B from DOM1.
+
+Note aircraft pushing back from bays 11-19, 49-57, and 59 will ordinarily be instructed to push tail north to achieve this traffic flow, even when assigned Runway 16R.
+
+IMAGE
+
+*Image from AIP Sept 2023. Uncontrolled.*
+Blue – Northbound (TWY B, L)
+Yellow – Southbound (TWY C, B10)
+
+#### Aircraft Bay Assignment
+Sydney can be split into two sides, the international side to the west of Runway 16R/34L, and the domestic side to the east.  
+
+Domestic:
+| Bay | Airlines | 
+| -------- | ------- |
+| 1-19  | QFA, QLK, QJE |
+| 64-70 | QLK | 
+| 49-59 | JST, RXA | 
+| 31-54 odd only | JST, RXA, VOZ | 
+| 32-44 even only  | VOZ |
+| F1-F16 | Prop airliners excl QLK (see 64-70) | 
+| 90-94 | Cargo | 
+| 102-112 | AM, private jets (including intl) | 
+| 96-99 & 120-121  | Overflow |
+
+International:
+| Bay | Airlines | 
+| -------- | ------- |
+| 20 &, 85, 88  | QFA mediums |
+| 1-6 | Cargo (international) | 
+| 71-77 | Overflow (domestic) | 
+| 58-61 | Emirates (preferred) | 
+| All others  | Internationals |
+
+Notes:
+-	Few domestic bays can accommodate aircraft larger than 737/A320. Apron Chart Domestic Page 2 & 3 refer.
+-	See chart below
+
+Domestic Bay Assignment
+IMAGE
+
+*Image from AIP Sept 2023. Uncontrolled.*
+> Red: QFA, QJE, QLK
+> Orange: Jetstar, Rex
+> White: Virgin Australia, Rex
+> Blue: Light (prop) airliners and cargo
+> Green: Ambulance and private jets
+> Any other operators flying domestic flights into Sydney shall be assigned DOM2 or DOM3 unless specifically requested otherwise, or unable due to aircraft size.
+{.is-info}
+
+#### Runway Release
+When runway 07/25 is not in use, ground may request a release of the runway. In this case the runway is owned by ground, and ground do not need to coordinate runway crossing, backtracks, or taxiing on 07 or 25. In the rare case of parallel runways not being in use, the same principle applies. At any time Tower can withdraw this release.
+
+#### Intersectional Departures
+Due to noise abatement procedures, intersectional departures are to be avoided from Runways 34L & R unless required for operational reasons, or by pilot request.
+
+##### Helicopters
+Ordinarily Ground will not work helicopters, they will be transferred from the Delivery frequency straight to Tower, and depart/arrive from stand or the helipad (heli 1). An exception will apply when helicopters request to route via taxiways.
+
+##### Transfer to Tower
+In real life, Australian operated aircraft will usually transfer to Tower without instruction, however due to the nature of IVAO this cannot always be expected, therefore Ground must transfer all aircraft to Tower when practical (no further ground traffic to effect).
+When Tower is split into YSSY_E_TWR and YSSY_W_TWR, departures for runway 16R/34L and 07/25 will be transferred to YSSY_W_TWR on 120.500MHz, and departures for runway 34R/16L will be transferred to YSSY_E_TWR on 124.700MHz. The same applies to coordinating runway crossing clearances.
+
+## Delivery
+
+1.	YSSY_DEL shall only be opened when YSSY_GND and YSSY_TWR are already online. 
+
+#### Responsibilities
+Sydney Delivery is solely responsible for the handling of clearance delivery. It has no authority over any of the maneuvering areas or aprons. 
+
+#### Coordination
+Delivery is responsible for coordinating where required with the relevant departure controller, prior to giving clearances involving the following:
+
+-	Departure from a runway not included on the ATIS.
+-	VFR departures
+-	Non-standard requests
+-	High performance jet departures
+-	Local flights
+
+The departure controller may then issue instructions including a routing, heading, or altitude constraint, which must be passed on in the clearance.
+Note: The departure controller refers to the controller responsible for working departures, this may be YSSY_DEP, YSSY_NE_DEP, YSSY_SW_DEP, YSSY_APP, or in rare cases YSSY_N_APP, or YSSY_S_APP, depending on positions open and runway in use. See the ‘Transfer to Departures’ section within Sydney Tower Ops Manual for clarification.
+
+#### Runway Assignment
+
+When operating parallel runway operations, aircraft departing to the north and east should be assigned runway 16L or 34R, and aircraft departing to the south and west should be assigned runway 16R or 34L. An exception applies for large aircraft which require 16L or 34R due to the runway length.
+
+With PROps in use, consideration should be given to offering runway 25 to AM (Ambulance) flights operating from DOM5 due to their priority status, dependent on winds and traffic capacity.
+Standard Assignable Level
+
+> Clearance Delivery are responsible for assigning an initial climb in the clearance. Unless otherwise coordinated between Delivery and Departures, this shall be:
+> Jets: 5000ft, or the requested RFL, whichever is lower.
+> Props: 3000ft, or the requested RFL, whichever is lower.
+{.is-info}
+
+#### VFR Clearance
+Clearance Delivery will issue a standard VFR clearance to VFR aircraft only after coordinating with Approach (see coordination).
+
+> Example:
+> ABC Sydney Delivery g’day. Cleared to Canberra via Dolls Point. Maintain 3,000. Squawk 5634. Departures on 123.0.
+
+> What if Departures issue instructions?
+> DEP > DEL: ABC cleared to Canberra via PNP. 2000ft. Assigned left heading 330.
+> DEL > DEP: Cleared to Canberra via PNP. 2000ft. Assigned left heading 330, ABC.
+> DEL > ABC: ABC Sydney Delivery g’day. Cleared to Canberra via Picnic Park. Maintain 2,000. Squawk 5634. Departures on 123.0.
+
+> **H330 MUST BE INCLUDED ON THE STRIP FOR TOWER TO ASSIGN WITH TAKEOFF CLEARANCE, IT IS ALSO RECOMMENDED TO COORDINATE DIRECTLY WITH TOWER**
+{.is-warning}
+
+<kbd>i</kbd> See VFR GEN 1 for Australian VFR waypoint codes, names, and positions.
+
+#### SID Assignment
+Where able, all IFR jets should be assigned the procedural SID which terminates at the appropriate waypoint according to their flight plan, or rerouted via the most appropriate SID according to runway in use and direction of flight.
+
+Note that Sydney SID’s often have multiple transitions, and it is imperative that Delivery specifies which transition the aircraft needs to take to complete the SID if applicable. This may be the radar transition. See the table on the next page for SID assignments and transitions.
+
+Examples:
+> ‘JST123 Sydney Delivery g’day. Cleared to Melbourne via WOL planned route, runway 34R, MARUB7 departure, WOL transition. Climb via the SID to 5000. Squawk 1234. Departures on 123.0.’
+
+>‘QFA456 Sydney Delivery g’day. Cleared to Singapore via RIC planned route, runway 34L, RIC6 departure, RIC transition*. Climb via the SID to 5000. Squawk 5677. Departures on 123.0’
+
+>‘VOZ789 Sydney Delivery g’day. Cleared to Perth via KADOM planned route, runway 34L, KADOM1 departure**. Climb via the SID to 5000. Squawk 4321. Departures on 123.0’
+
+*even though QFA456 is on the RIC SID, the SID has both a RIC & radar transition, therefore we must include the transition in the clearance.
+
+**KADOM1 has only one transition, therefore we do not need to specify the transition. 
+
+IFR jet aircraft unable to fly the procedural SID, and all IFR prop aircraft shall be assigned the SY radar departure.
+
+Examples:
+> ‘QLK987 Sydney Delivery g’day, cleared to Melbourne via WOL planned route, runway 34R, SY3 departure. Climb via the SID to 3000. Squawk 7654. Departures on 123.0.’
+
+| Runway | Via | SID | Transition |
+| -------- | ------- |
+| 07 | all | SY (radar) |  *n/a* |
+| 25 | all | SY (radar) |  *n/a* |
+| 16L  | OLSEM | KEVIN | OLSEM |
+| 16L  | NOBAR | KEVIN | NOBAR |
+| 16L  | DIPSO | KEVIN | DIPSO |
+| 16L  | EVONN | KEVIN | EVONN |
+| 16L  | CAWLEY | KEVIN | CAWLEY |
+| 16L  | WOL* |  ABBEY |  WOL |
+| 16L  | all others | KEVIN | *radar* |
+| 16R | RIC | KAMPI |  RIC |
+| 16R | KADOM | KAMPI |  KADOM |
+| 16R  | WOL* |  KAMPI | WOL |
+| 16R  | *all others* |  KAMPI |  *radar* |
+| 34L | WOL* | WOL |  *n/a* |
+| 34L | KADOM | KADOM |  n/a |
+| 34L  | RIC |  RIC | RIC |
+| 34L  | *all others* |  RIC |  *radar* |
+| 34R | OLSEM | OLSEM |  n/a |
+| 34R  | WOL* |  MARUB | WOL |
+| 34R  | *all others* |  MARUB |  *radar* |
+
+**Note that both 34L & 34R, and 16L & 16R are available for WOL deps. Delivery will issue WOL deps from the international terminal the western runway (16R/34L), and WOL deps from the domestic terminal the eastern runway (16L/34R), in order to balance traffic and minimise runway crossings (particularly for 34L&R).*
+
+#### Transfer to Ground
+
+After reading back clearance, Delivery should instruct aircraft to contact Sydney Ground when ready for pushback, on the following frequencies:
+
+> When Sydney Ground is bandboxed as YSSY_GND:
+> All aircraft: 121.7
+{.is-info}
+
+> When Sydney Ground is split into YSSY_E_GND and YSSY_W_GND:
+> Aircraft east of 16R/34L: 121.7
+> Aircraft west of 16L/34R: 126.5
+{.is-info}
+
+IMAGE
+ 
+ *Image from AIP Sept 2023. Uncontrolled.*
+Orange – YSSY_E_GND (121.7)
+Blue – YSSY_W_GND (126.5)
+
+> Note the phraseology ‘Readback Correct’ is not used in Australia.
+{.is-warning}
+
+# TCU
+
+| Logon | Callsign | Frequency | FRA |
+| -------- | ------- |
+| YSSY_APP  | Sydney Approach |  124.400MHz |  AS3 |
+| *YSSY_N_APP*  | *Sydney Approach* |  *124.400MHz* |  *Event* |
+| *YSSY_S_APP*  | *Sydney Approach* |  *123.600MHz* |  *Event* |
+| YSSY_D_APP  | Sydney Director |  126.100MHz |  AS3 |
+| *YSSY_DW_APP*  | *Sydney Director* |  *126.100MHz* |  *Event* |
+| *YSSY_DE_APP*  | *Sydney Director* |  *125.300MHz* |  *Event* |
+| YSSY_DEP  | Sydney Departures |  123.000MHz |  AS3 |
+| *YSSY_NE_DEP*  | *Sydney Departures* |  *123.000MHz* |  *Event* |
+| *YSSY_SW_DEP*  | *Sydney Depatures* |  *129.700MHz* | *Event* |
+
+## Approach
+
+> Section under construction.
+{.is-danger}
+
+
+## Director
+
+> Section under construction.
+{.is-danger}
+
+## Departures
+
+> Section under construction.
+{.is-danger}
+
+---
+*Authors: Charlie Walton 724364*
