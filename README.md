@@ -24,8 +24,11 @@ Users currently cannot create new pages on our GitHub, however you may still pro
 In order to correctly format Ops Manuals, a basic understanding of how the IVAO Wiki works is required. See a guide below:
 
 '#' Main Title Header
+
 '##' Smaller Title Header
+
 '###' Sub-Header
+
 '####' Smaller Sub-Header
 
 The Title Headers will show in the glossery on the left hand side making it easier to find parts of the page. Sub-Headers do not. 
