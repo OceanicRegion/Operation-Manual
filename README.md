@@ -33,19 +33,25 @@ In order to correctly format Ops Manuals, a basic understanding of how the IVAO 
 
 The Title Headers will show in the glossery on the left hand side making it easier to find parts of the page. Sub-Headers do not. 
 
+
 '> Text' Quotation (generally used for phraseology)
 
 '> Text'       Information Box
+
 '{.is-info}'
 
 '> Text'       Green Tick Box
+
 '{.is-success}'
 
 '> Text'       Amber Warning Box
+
 '{.is-warning}'
 
 '> Text'       Red Cross Box
+
 '{.is-danger}'
 
 '**text**'     Bold
+
 '*text*'       Italic
