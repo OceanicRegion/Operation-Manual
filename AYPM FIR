@@ -34,11 +34,11 @@ AYPY_APP	Jacksons Radar	125.800MHz	 |  AS2
 AYPY_TWR	Jacksons Tower	118.100MHz   | 	AS1 
 AYPY_GND	Jacksons Ground	121.700MHz   |  AS1
 
-1. AYPY_APP is the standard position for Adelaide ADC. This position shall be opened first, and can be opened any time. 
+1. AYPY_APP is the standard position for ADC. This position shall be opened first, and can be opened any time. 
 2. AYPY_TWR is the default bandboxed Aerodrome position, and should be opened first.
 3. AYPY_GND is the default Ground position, and should only be opened once Tower is open.
 
-1. AYNZ_APP is the standard position for Adelaide ADC. This position shall be opened first, and can be opened any time.
+1. AYNZ_APP is the standard position for ADC. This position shall be opened first, and can be opened any time.
 2. AYNZ_GND is the default Ground position, and should only be opened once Tower is open.
 
 ## Tower AYPY , AYNZ 
