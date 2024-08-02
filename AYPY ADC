@@ -1,0 +1,110 @@
+# **Jacksons Airport Operations Manual**
+
+Last Updated: 02/08/2024
+Version: 1.0
+# General
+
+| Information   ||
+| -------- | ------- |
+| ICAO Code  | AYPY |
+| IATA Code | POM |
+| Airport Name | Jacksons  Airport |
+| Time Zone | GMT +10:00 |
+| Permitted Traffic Types | IFR / VFR   |
+| Runways | 14L/32R, 14R/32L |
+
+# Aerodrome
+
+| Logon | Callsign | Frequency | FRA |
+| -------- | ------- |
+| AYPY_TWR  | Jacksons Tower |  118.100MHz |  AS1 |
+| AYPY_GND  | Jacksons Ground|  121.700MHz |  AS1 |
+
+1. AYPY_TWR is the default bandboxed Aerodrome position, and should be opened first.
+2. AYPY_GND is the default Ground position, and should only be opened once Tower is open.
+
+## Tower
+
+#### Responsibilities
+Jacksons Tower is responsible for the class C Jacksons CTR. Tower are also responsible for both runways. Ground are responsible for the remainder of the maneuvering area
+
+#### Runway Selection
+Jacksons normally only uses one runway for operations at 14L/32R but if on the day Tower wants to open runway 14R/32R it will be used for light aircraft for IFR/VFR departures
+
+#### Auto Release
+Auto Release applies at Jacksons for aircraft:
+-	Assigned a procedural SID from a runway nominated on the ATIS and;
+-	Assigned the standard assignable level
+
+All other departures require a release from Departures, via a ‘Next’ call.
+
+Auto Release does not apply to:
+-	VFR departures
+-	Aircraft assigned the radar SID
+-	Departures to aerodromes within the Jacksons TCU
+-	High performance jet departures
+
+Additionally, Tower will coordinate the following with Departures:
+-	Go arounds/missed approach
+
+#### Circuits
+Runway 14L and 32R - Circuits to the East. Runway 14R and 32R - Circuits to the West.
+
+#### Transfer to Departures
+The frequency for departures will follow this priority order:
+
+All departures:
+| Runway 14L | Runway 32R | 
+| -------- | ------- |
+| AYPY_APP  | AYPY_APP | 
+| AYPM_CTR  | AYPM_CTR |
+
+## Ground
+
+#### Runway Release
+When runway 14R/32L is not in use, ground may request a release of the runway. In this case the runway is owned by ground, and ground do not need to coordinate runway crossing
+
+#### Transfer to Tower
+Ground must transfer all aircraft to Tower when practical (no further ground traffic to effect). Reference the responsibility section. Where a runway is released to Ground, Ground will instruct aircraft to cross the inactive runway BEFORE transferring to Tower.
+
+# APP
+
+| Logon | Callsign | Frequency | FRA |
+| -------- | ------- |
+| AYPY_APP  |  Jacksons Radar |  125.800MHz |  AS2 |
+
+1.	AYPY_APP is the standard position for Jacksons Radar. This position shall be opened first, and can be opened any time. 
+
+## Approach 
+
+#### Responsibilities
+Jacksons Radar is responsible for the Jacksons TMA up to FL245.
+
+#### Approach Selection
+The preferred instrument approach is the ILS.
+
+No instrument approaches are available for the westerly runway.
+
+#### Coordination with Centre
+**Departures:**
+> No coordination is required for IFR aircraft in a procedural SID and assigned FL240. All other aircraft must be coordinated with the Moresby Centre. Aircraft will be delivered to the Center before leaving the TMA and must be conflict-free.
+{.is-info}
+
+**Arrivals:**
+> No coordination is required for IFR aircraft arriving at Jacksons assigned to a STAR and descending to 14,000 feet. All other aircraft must be coordinated through the Moresby Centre. Aircraft will be handed over to Approach before entering the TMA and must be conflict free.
+{.is-info}
+
+#### Auto Release
+**Jacksons**
+Auto release applies at Jacksons for aircraft:
+-	Assigned a procedural SID from a runway nominated on the ATIS and;
+-	Assigned the standard assignable level (FL100)
+
+
+*Authors: Weviton Benevides Sales 693590, Charlie Walton 724364*
+
+
+
+
+
+
